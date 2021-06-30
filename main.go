@@ -13,7 +13,7 @@ import (
 const cachefolder = "buildprog"
 const buildFile = "build.txt"
 
-var buildArgs = []string{"build", "-work", "-p", "1", "-x"}
+var buildArgs = []string{"build", "-work", "-a", "-p", "1", "-x"}
 
 func handle(err error) {
 	if err != nil {
